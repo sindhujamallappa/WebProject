@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship form</title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+            <div class="form">
+        <h2>Basic Information</h2>
+        <hr>
+        <form action=""method="">
+        <div class="container">
+         <label for="fn"><b> First Name</b></label>
+         <input type="text" placeholder="Enter your First Name" name="First Name" size="50" required>
+
+         <label for="ln"><b>Last Name</b></label>
+         <input type="text" placeholder="Enter your Last Name" name="Last Name" size="50" required>
+
+         <label for="fatn"><b>Fathers Name</b></label>
+         <input type="text" placeholder="Enter your Fathers Name" name="Fathers Name" size="50" required>
+
+         <label for="motn"><b>Mothers Name</b></label>
+         <input type="text" placeholder="Enter your Mothers Name" name="Mothers Name" size="50" required>
+
+         <label for="sex"><b>Gender</b></label>
+         <label for="male"><input type="radio" id="male" name="gender" value="male">Male</label>
+         <label for="male"><input type="radio" id="male" name="gender" value="male">Female</label>
+         <br>
+
+         <label for="address"><b>Address</b></label>
+         <textarea name="address" id="add" cols="55" rows="6"></textarea>
+
+         <label for="email"><b>E-mail</b></label>
+         <input type="text" placeholder="Enter your email" name="Email" size="50" required>
+
+         <label for="phno"><b>Phone Number</b></label>
+         <input type="text" placeholer="Enter your phone number" name="Phone Number" size="50" required>
+
+         <label for="zip"><b>Zipcode</b></label>
+         <input type="text" placeholder="Enter the Zipcode" name="Zicode" size="50" required>
+
+         <label for="state"><b>State</b></label>
+         <select id="state" name="state">
+             <option value="karnataka">Karnataka</option>
+             <option value="tamil nadu">Tamil Nadu</option>
+             <option value="kerala">Kerala</option>
+             <option value="goa">Goa</option>
+             <option value="andra pradesh">Andra Pradesh</option>
+         </select>
+
+         <label for="caste"><b>Caste</b></label>
+         <select id="Caste" name="caste">
+             <option value="obc">OBC</option>
+             <option value="sc/st">SC/ST</option>
+             <option value="category 1">Category 1</option>
+         </select>
+
+         <label for="city"><b>City</b></label>
+         <select id="City" name="City">
+             <option value="banglore">Bangalore</option>
+             <option value="hassan">Hassan</option>
+             <option value="chikkamanaluru">Chikkamangaluru</option>
+             <option value="mysuru">Mysore</option>
+             <option value="shivamogga">Shivamogga</option>
+             <option value="ooty">Ooty</option>
+             <option value="davangere">davangere</option>
+             <option value="belgavi">Belgavi</option>
+         </select>
+         <p>
+             <br>
+         </p>
+
+         <h2>Educational Information</h2>
+         <hr>
+
+         <label for="uni"><b>University</b></label>
+         <input type="university" placeholder="Enter the Uiversity you are currently studying" size="50">
+
+         <label for="yog"><b>Year of Graduation</b></label>
+         <input type="Year of Graduation" placeholder="Enter the year of Graduation" size="50">
+
+         <label for="10th"><b>10th percentage</b></label>
+         <input type="10th percentage" placeholder="Enter your 10th percentage" size="50">
+
+         <label for="12th"><b>12th percentage</b></label>
+         <input type="12th percentage" placeholder="Enter your 12th percentage" size="50">
+         <br>
+
+         <h2>Upload Document</h2>
+         <hr>
+         <br>
+
+         <div class="document">
+            <p>SNo &nbsp Document Type </p>
+            <hr>
+            <p>1 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Domicile Certificate <span class="doc"><input type="file"></span></p><br>
+            <p> 2 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Student Photograph <span class="doc"><input type="file"></span></p><br>
+            <p> 3 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Self Declaration of minority communication certificate by the student <span class="doc"><input type="file"></span></p><br>
+            <p> 4 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Self Attested Certificate of previous academic marksheet <span class="doc"><input type="file"></span></p><br>
+            <p> 5 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Fee recipt of current course year <span class="doc"><input type="file"></span></p><br>
+            <p> 6 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Proof of bank account in the name of student <span class="doc"><input type="file"></span></p><br>
+            <p> 7 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Income Certificate issued by the Designated State/UT Authority <span class="doc"><input type="file"></span></p><br>
+            <p> 8 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Bonafide student of Institution <span class="doc"><input type="file"></span></p><br>
+         </div>
+            <div class="button">
+                <input type="button" value="Save as Draft" id="save">
+                <input type="submit" value="Submit" id="submit">
+                <input type="reset" value="Reset" id="reset">
+            </div>
+        </div>
+        </form>
+</body> 
+</html>
